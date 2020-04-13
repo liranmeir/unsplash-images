@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <h1>Photos from Unspash</h1>
       <header className='header'>
         <button onClick={onClick} className='refresh'>
@@ -37,7 +37,7 @@ function App() {
           <Photo id={photo.id} url={photo.urls.small} />
         ))}
       </div>
-    </div>
+    </>
   );
 }
 
