@@ -50,7 +50,7 @@ h1 {
   box-sizing: border-box;
   height: 50vh;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 100vw);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 20px;
   image {
     width: 100%;
